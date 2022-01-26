@@ -15,3 +15,14 @@ print(my_dict['foo']['b'])
 #Выведите множество.
 my_dict1 = set(my_dict)
 print(my_dict1)
+
+#Снова выведите множество.
+#Удалите из списка элемент ‘o’.
+my_dict['moo']['f']['Lol'].remove('o')
+print(my_dict['moo']['f']['Lol'])
+#Добавьте в словарь, который является значением ключа ‘f’ ключ ‘K’ со значением ['K', 'e', 'k'].
+my_dict['moo']['K'] = ['K', 'e', 'k']
+print(my_dict['moo'])
+#Очистите словарь my_dict.
+my_dict.clear()
+print(my_dict)
